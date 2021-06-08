@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Deck</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Scripts -->
+    <script src="./main.js" type=module defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  </head>
+  <body>
+    <header>
+      <p>Deck of builder cards</p>
+    </header>
+    <nav></nav>
+    <section>
+      <button id="shuff">Shuff</button>
+      <div id="target">
+      
+      </div>
+      <button id="draw">draw</button>
+    </section>
+    <footer><P>By Sandra Trinh</P></footer>
+    <!-- Handel bars templates -->
+    <script id="cardView" type="text/x-handlebars-template">
+      <div>
+        <p class="cardName">{{cardName}}</p>
+        <img class="cardImage" src="{{imageURL}}" alt="{{cardName}} card">
+      </div>
+    </script>
+  </body>
+</html>

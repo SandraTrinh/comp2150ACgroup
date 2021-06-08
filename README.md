@@ -1,2 +1,3 @@
-# comp2150ACgroup
-card drawing web page
+# Strapi application
+
+A quick description of your strapi application

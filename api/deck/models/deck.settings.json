@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "decks",
+  "info": {
+    "name": "deck",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cardId": {
+      "type": "integer"
+    },
+    "cardName": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "imageURL": {
+      "type": "string"
+    }
+  }
+}
